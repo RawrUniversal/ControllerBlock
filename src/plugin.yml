@@ -1,5 +1,6 @@
 name: ControllerBlockWE
 main: me.operon.controllerblockwe.ControllerBlock
+authors: [Hell_Fire, Zero9195, Sorklin, Techzune, Me_Goes_RAWR]
 version: 5.0
 api-version: 1.13
 depend: [WorldEdit]
