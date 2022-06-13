@@ -1,0 +1,14 @@
+name: ControllerBlockWE
+main: me.operon.controllerblockwe.ControllerBlock
+version: 5.0
+api-version: 1.16
+depend: [WorldEdit]
+commands:
+    cblock:
+        description: Reloads the config or adds/removes block via worldedit.
+        usage: /<command> <reload/a/we/add/remove/s>
+        permission: cblock.commands
+  
+permissions:
+    cblock.commands:
+        default: op
