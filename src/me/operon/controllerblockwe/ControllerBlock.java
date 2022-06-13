@@ -32,7 +32,7 @@ import com.sk89q.worldedit.math.BlockVector3;
 import com.sk89q.worldedit.regions.Region;
 
 public class ControllerBlock extends JavaPlugin implements Runnable {
-	private static String configFile = "ControllerBlock.ini";
+	private static String configFile = "ControllerBlock.yml";
 	public Logger log = new Logger(this, "Minecraft");
 	private Config config = new Config();
 	private PermissionHandler permissionHandler = new PermissionHandler(this);
@@ -66,7 +66,7 @@ public class ControllerBlock extends JavaPlugin implements Runnable {
 	public void onLoad() {
 		if (!beenLoaded) {
 			log.info(getDescription().getVersion()
-					+ " by Zero9195 (Original by Hell_Fire). Updated for R6 by Sorklin, Edited for WorldEdit by Techzune, Updated to 1.13 by Me_Goes_RAWR");
+					+ " by Me_Goes_RAWR (Original by Hell_Fire). Updates by: Zero9195 (After Hell_Fire), Sorklin (R6 Update) and Techzune (Worldedit addons)");
 			checkPluginDataDir();
 			loadConfig();
 			beenLoaded = true;
